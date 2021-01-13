@@ -34,7 +34,7 @@ DEFAULT_CULTURE = "en"
 MYQ_HEADERS = {
     "Content-Type": "application/json",
     "MyQApplicationId": DEFAULT_APP_ID,
-    "ApiVersion": str(DEVICES_API_VERSION_HEADER),
+    "ApiVersion": str(DEVICES_API_VERSION),
     "BrandId": str(DEFAULT_BRAND_ID),
     "Culture": DEFAULT_CULTURE
 }
